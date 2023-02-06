@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Instalacón
+# Instalación
 
 - Primeros pasos para crear la Api de WhatsApp
 
