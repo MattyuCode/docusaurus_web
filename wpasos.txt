@@ -6,4 +6,4 @@ git commit -m "33"
 pegar el de repo
 npm run serve
 pegar el codigo que viene de docusaurus
-GIT_USER=MattyuCode npm run deploy
+GIT_USER=mattyucode npm run deploy
