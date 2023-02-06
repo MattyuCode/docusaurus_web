@@ -32,7 +32,7 @@ sidebar_position: 4
 `Este codigo lo pegamos abajo del scrip cdn socket`
 - Agregamos un eveto para poder generar el QR y mandarlo al navegador, con el socket haremos que se ejecute en el puerto configurado
 
-```js
+```javascript
    <script>
         document.addEventListener("DOMContentLoaded", () => {
             let socket = io("http://localhost:6060", {
@@ -139,7 +139,7 @@ sidebar_position: 4
     </style>
 ```
 
-## Inicar nuesta la aplicacion 
+## Iniciar nuesta la aplicacion 
 
 ### Configurar el Package.json
 - Configurar el **start** en el package.json como lo tenemos en la imagen para poder usar el **NODEMON** con el nombre del arhivo javascript que creamos en mi caso tengo el de **app.js**
