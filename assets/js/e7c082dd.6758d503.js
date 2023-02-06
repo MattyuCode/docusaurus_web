@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdoc_api_whats_app=self.webpackChunkdoc_api_whats_app||[]).push([[626],{4377:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/docusaurus_web/blog/tags/facebook","allTagsPath":"/docusaurus_web/blog/tags","count":1}')}}]);

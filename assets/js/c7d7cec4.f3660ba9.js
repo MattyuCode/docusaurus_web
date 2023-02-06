@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdoc_api_whats_app=self.webpackChunkdoc_api_whats_app||[]).push([[465],{3769:a=>{a.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
