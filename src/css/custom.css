@@ -1,0 +1,97 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.836);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+.navbar {
+  /* background: transparent !important; */
+  /* background: red; */
+  width: 100%;
+  /* color: white; */
+
+}
+
+.navbar .navbar__inner {
+  width: 80%;
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar a {
+  /* color: white; */
+}
+
+
+body::-webkit-scrollbar {
+  background: #333;
+  height: 6px;
+  width: 6px;
+  /* display: none; ||  Ocultar scroll */
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  /* border: 1px solid #ffffff; */
+  box-shadow: inset 5px 5px 10px #FFF, inset -5px -5px 15px #dbe0e7;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+header .container {
+  color: white;
+}
+
+/* header{
+  height: 100vh;
+} */
+
+.thvideo {
+  display: flex;
+  justify-content: center;
+}
+
+.hola {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+mat{
+  display: flex;
+  justify-content: center;
+}
