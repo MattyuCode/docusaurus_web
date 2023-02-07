@@ -61,3 +61,13 @@ This command generates static content into the `build` directory and can be serv
     GIT_USER=mattyucode npm run deploy
 ```
 
+## Guardar cambios o agregar modificacion
+  ```bash
+    git add .
+    git commit -m "Mattyu Actualizado"
+    git push
+```
+- despues ejecutar de nuevo este codigo
+```bash
+    GIT_USER=mattyucode npm run deploy
+```
