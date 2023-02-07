@@ -46,7 +46,7 @@ This command generates static content into the `build` directory and can be serv
     - trailingSlash: false,
 
 
-// npm run build
+ <!-- npm run build -->
 
 ```bash
     git init 
