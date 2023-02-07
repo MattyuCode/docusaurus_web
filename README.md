@@ -25,6 +25,7 @@ $ yarn build
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ## Configurar el deploy
+- link para ver el deploy [https://www.youtube.com/watch?v=9iVNf0T09dE](https://www.youtube.com/watch?v=9iVNf0T09dE)
 - ir en docusaurus.config.js
       
     `El nombre del link de github con el nombre de usuario`
