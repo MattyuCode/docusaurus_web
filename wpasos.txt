@@ -1,9 +1,40 @@
-npm run build
+## Configurar el deploy
+- ir en docusaurus.config.js
+      
+    `El nombre del link de github con el nombre de usuario`
+    - url: 'https://mattyucode.github.io/',
 
-git init 
-git add .
-git commit -m "33"
-pegar el de repo
-npm run serve
-pegar el codigo que viene de docusaurus
-GIT_USER=mattyucode npm run deploy
+    `El nombre del repositorio`
+    - baseUrl: '/docusaurus_web',
+    
+    `El nombre del usuario de github`
+    - organizationName: 'mattyucode',
+    
+    `El nombre del repositorio o el nombre del proyecto`
+    - projectName: 'docusaurus_web', 
+    
+    `El nombre de la rama que se va a crear`
+    - deploymentBranch: "gh-pages",
+    
+    `y pasar este ultimo`
+    - trailingSlash: false,
+
+
+// npm run build
+
+```bash
+    git init 
+    git add .
+    git commit -m "Mattyu Actualizado"
+```
+
+- pegar el de repo
+
+- pegar el codigo que viene de docusaurus
+```bash
+    GIT_USER=mattyucode npm run deploy
+```
+
+
+
+

@@ -12,17 +12,17 @@ const config = {
   favicon: 'https://mattyucode.github.io/portafolio/img/iM.C.png',
 
   // Set the production url of your site here
-  // url: 'https://mattyucode.github.io/',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://mattyucode.github.io/',
+  // url: 'https://your-docusaurus-test-site.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
-  // baseUrl: '/docusaurs_web',
+  // baseUrl: '/',
+  baseUrl: '/docusaurus_web',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'mattyucode', // Usually your GitHub org/user name.
-  projectName: 'docusaurs_web', // Usually your repo name.
+  projectName: 'docusaurus_web', // Usually your repo name.
   deploymentBranch: "gh-pages",
  trailingSlash: false,
 

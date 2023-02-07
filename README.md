@@ -24,18 +24,40 @@ $ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Deployment
+## Configurar el deploy
+- ir en docusaurus.config.js
+      
+    `El nombre del link de github con el nombre de usuario`
+    - url: 'https://mattyucode.github.io/',
 
-Using SSH:
+    `El nombre del repositorio`
+    - baseUrl: '/docusaurus_web',
+    
+    `El nombre del usuario de github`
+    - organizationName: 'mattyucode',
+    
+    `El nombre del repositorio o el nombre del proyecto`
+    - projectName: 'docusaurus_web', 
+    
+    `El nombre de la rama que se va a crear`
+    - deploymentBranch: "gh-pages",
+    
+    `y pasar este ultimo`
+    - trailingSlash: false,
 
+
+// npm run build
+
+```bash
+    git init 
+    git add .
+    git commit -m "Mattyu Actualizado"
 ```
-$ USE_SSH=true yarn deploy
+
+- pegar el de repo
+
+- pegar el codigo que viene de docusaurus
+```bash
+    GIT_USER=mattyucode npm run deploy
 ```
 
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
